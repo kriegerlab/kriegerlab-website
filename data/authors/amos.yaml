@@ -1,0 +1,17 @@
+schema: hugoblox/author/v1
+slug: amos
+is_owner: false
+
+name:
+  display: Amos Surname
+  given: Amos
+  family: Surname
+
+role: PhD Student
+
+bio: |
+  Explainable AI and computational pathology.
+
+links:
+  - icon: brands/github
+    url: https://github.com/...
