@@ -1,39 +1,58 @@
-/* Krieger Lab custom styling */
+/* --- Krieger Lab visual system --- */
 
 :root {
   --krieger-bg: #fbfaf7;
-  --krieger-text: #171717;
+  --krieger-text: #161616;
   --krieger-muted: #6f6f6f;
   --krieger-rule: #dedbd4;
 }
 
+/* Overall page */
 body {
   background: var(--krieger-bg);
   color: var(--krieger-text);
 }
 
+/* More breathing room */
 main {
   max-width: 1280px;
-  margin: 0 auto;
+  margin-inline: auto;
 }
 
+/* Sections */
 section {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
+/* Headings: understated rather than chunky */
 h1,
 h2,
 h3 {
   font-weight: 400;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
 }
 
+/* Navigation */
 nav {
-  letter-spacing: 0.08em;
   text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 0.9rem;
 }
 
+/* Thin, quiet dividers */
+hr {
+  border: 0;
+  border-top: 1px solid var(--krieger-rule);
+}
+
+/* Keep links restrained */
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+/* Mobile */
 @media (max-width: 768px) {
   section {
     padding-top: 4rem;
