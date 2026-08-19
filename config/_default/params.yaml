@@ -61,7 +61,12 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Theme pack: name from data/fonts/
-    pack: "academic"
+    pack: modern
+    families:
+      heading: "Newsreader"
+      body: "Jost"
+      nav: "Jost"
+    
 
   # ────────────────────────────────────────────────────────────────────────────
   # LAYOUT
